@@ -89,3 +89,14 @@ def home():
         <title>Home</title>
         {CSS_STYLES}
     </head>
+    <body>
+        <div class="container">
+            <h1>Welcome! 🐳</h1>
+            <p>This is a Dockerized Python Flask Application.</p>
+            <div class="nav-buttons">
+                <a href="/about" class="btn">About Project</a>
+                <a href="/health" class="btn btn-secondary">Health Check</a>
+            </div>
+        </div>
+    </body>
+    </html>
