@@ -56,3 +56,23 @@ CSS_STYLES = """
         transition: background-color 0.3s;
         font-weight: bold;
     }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    .btn-secondary {
+        background-color: #6c757d;
+    }
+    .btn-secondary:hover {
+        background-color: #545b62;
+    }
+    .health-badge {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #28a745;
+        color: white;
+        border-radius: 20px;
+        font-size: 0.9em;
+        margin-top: 10px;
+    }
+</style>
+"""
