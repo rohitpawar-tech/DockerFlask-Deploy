@@ -130,3 +130,8 @@ def about():
 # 3. Health Check API
 # Note: We return JSON here as it is standard for API monitoring tools.
 # If you open this in a browser, it will look like raw text data.
+@app.route('/health')
+def health():
+    logger.info("Health check performed.")
+    return jsonify({"status": "healthy", "message": "System is operational"}), 200
+
