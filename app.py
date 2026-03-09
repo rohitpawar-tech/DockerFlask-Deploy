@@ -45,3 +45,14 @@ CSS_STYLES = """
     .nav-buttons {
         margin-top: 30px;
     }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        text-decoration: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-weight: bold;
+    }
