@@ -127,3 +127,6 @@ def about():
     </html>
     """
     return html_content
+# 3. Health Check API
+# Note: We return JSON here as it is standard for API monitoring tools.
+# If you open this in a browser, it will look like raw text data.
