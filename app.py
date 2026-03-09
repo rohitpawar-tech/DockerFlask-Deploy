@@ -35,3 +35,13 @@ CSS_STYLES = """
         width: 100%;
     }
     h1 {
+            color: #2c3e50;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #666;
+        line-height: 1.6;
+    }
+    .nav-buttons {
+        margin-top: 30px;
+    }
