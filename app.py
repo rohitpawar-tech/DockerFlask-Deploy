@@ -100,3 +100,10 @@ def home():
         </div>
     </body>
     </html>
+    """
+    return html_content
+
+# 2. About Page Route
+@app.route('/about')
+def about():
+    logger.info("About page accessed.")
