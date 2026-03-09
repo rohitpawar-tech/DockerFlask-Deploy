@@ -76,3 +76,16 @@ CSS_STYLES = """
     }
 </style>
 """
+# 1. Home Page Route
+@app.route('/')
+def home():
+    logger.info("Home page accessed.")
+    
+    # We inject the CSS_STYLES variable into the HTML string
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Home</title>
+        {CSS_STYLES}
+    </head>
