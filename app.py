@@ -25,3 +25,13 @@ CSS_STYLES = """
         height: 100vh;
         margin: 0;
     }
+    .container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+    }
+    h1 {
