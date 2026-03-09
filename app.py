@@ -107,3 +107,23 @@ def home():
 @app.route('/about')
 def about():
     logger.info("About page accessed.")
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>About</title>
+        {CSS_STYLES}
+    </head>
+    <body>
+        <div class="container">
+            <h1>About This Project</h1>
+            <p>This project demonstrates containerization.</p>
+            <p>We used Python, Flask, and Docker to create a portable web application.</p>
+            <div class="nav-buttons">
+                <a href="/" class="btn">Go Back Home</a>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+    return html_content
